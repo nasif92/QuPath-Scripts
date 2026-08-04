@@ -9,4 +9,8 @@ Step-by-step process for running the QuPath scripts to extract features needed f
 
 4. Run "assign_classes_gt.groovy" which assigns the classes to all the detections within a classified annotation. 
 
-5. **Important** Run "featuring.groovy" to make sure you have all the features needed for mlp or ANN training. 
+5. **Important** Run "featuring.groovy" to make sure you have all the features needed for mlp or ANN training.
+
+6. Now, goes the "export_measurements" script to export all the measurements you need for training your MLP
+
+7. After training is done and deployed as a model, run the script "predict_in_qupath" to run your models on detections. 
