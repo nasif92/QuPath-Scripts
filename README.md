@@ -13,4 +13,4 @@ Step-by-step process for running the QuPath scripts to extract features needed f
 
 6. Now, goes the "export_measurements" script to export all the measurements you need for training your MLP
 
-7. After training is done and deployed as a model, run the script "predict_in_qupath" to run your models on detections. 
+7. After training is done and deployed as a model, run the script "run_mlp_model_on_detections.groovy" to run your models on detections. 
